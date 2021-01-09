@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#DEB887">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#8B4513"
+        android:paddingVertical="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Binus EzyFoody"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textColor="#FFDEAD"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/maps_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8B4513"
+            android:padding="30dp"
+            android:onClick="toMaps"
+            android:text="Pesan Sekarang"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textColor="#FFDEAD"
+            android:textAllCaps="false"
+            android:typeface="serif" />
+    </LinearLayout>
+
+</LinearLayout>
